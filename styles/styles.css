@@ -1,4 +1,5 @@
-:root {
+
+  :root {
     --color-heading: #212121;
     --color-text: #757575;
     --color-address: rgba(255, 255, 255, 0.6);
@@ -16,7 +17,7 @@
   
   /* Основні */
   
-  .body {
+  body {
     color: var(--color-text);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -50,22 +51,15 @@
    color: #FFFFFF;
   }
 
-  
-
-
- 
-
   .main-container
   {padding-top: 200px;
     padding-bottom: 200px;
-    
-
   }
 
   a {
     text-decoration: none;
   }
-  .ul {
+  ul {
     list-style: none;
   }
   .visually-hidden {
@@ -83,7 +77,7 @@
   /* HEADER */
   .header {
     border-bottom: 1px solid var(--color-border);
-    font-family: "Roboto", sans-serif;
+    
   }
   .logo {
     color: var(--color-hover);
@@ -95,17 +89,17 @@
   .header-span {
     color: var(--color-logo);
   }
-  .nav-link
+  .nav-link 
     {
     color: var(--color-heading);
     font-weight: 500;
-    line-height: 1.14;
+    font-size: 14px;
+    line-height: 16px;
     letter-spacing: 0.02em;
   }
   .contacts-link {
     color: var(--color-heading);
-    font-weight: 500;
-    line-height: 1.14;
+
     letter-spacing: 0.02em;
     color: var(--color-text);
   }
@@ -120,18 +114,22 @@
   {
     padding-top: 13px;
     padding-bottom: 15px;
-    
+    font-family: "Roboto";
+    font-size: normal;
 
   }
 
   .nav-list
   { padding-top: 13px;
+    font-family: "Roboto";
+    font-size: normal;
   }
   
   .nav-link:hover,
   .nav-link:focus
    {
     color: var(--color-hover);
+  
   }
   
   /* HERO */
@@ -152,7 +150,7 @@
     background-color: var(--color-hover);
     font-family: var(--font-family-brand);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
@@ -216,6 +214,7 @@
     color: var(--color-heading);
     font-weight: 500;
     font-family: 'Roboto';
+    font-size: 16px;
   }
   
 
@@ -229,7 +228,8 @@
   /* GALERY */
   .galery
   {font-family: 'Roboto';
-    font-weight: 500;
+   
+
     font-size: 16px;
     line-height: 1.62;
     border-radius: 4px;
@@ -269,7 +269,7 @@
     font-family: 'Roboto';
   }
   .galery-text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.86;
     font-family: 'Roboto';
    color: var(--color-text);
@@ -287,6 +287,7 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.71;
+    
   }
   .link-white{
     color: var(--color-hero);
@@ -296,3 +297,10 @@
     color: var(--color-hero);
   }
   
+  .footer-address
+  {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+  }
